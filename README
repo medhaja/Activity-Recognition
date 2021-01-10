@@ -1,4 +1,4 @@
-1. Title: Activity Recognition from a Single Chest-Mounted Accelerometer
+1. Title: Activity Recognition from a Single Chest-Mounted Accelerometer(My work in the last section)
 	Updated Nov, 2013 , P. Casale, email: plcasale@ieee.org
 	
 2. Abstract: The dataset collects data from a wearable accelerometer mounted on the chest. Uncalibrated Accelerometer Data are collected from 15 participants performing 7 activities. The dataset is intended for Activity Recognition research purposes. It provides challenges for identification and authentication of people using motion patterns.
@@ -40,5 +40,4 @@
 1) Use Lstm network as the data might be dependent on previous data.
 2) Use Neat algorithm.
 3) Use very deep network to get the highest possible accuracy.
-4) Use Colab to train the model in cloud.
-5) 
+4) Use Colab to train the model in cloud.(done)
