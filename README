@@ -24,19 +24,21 @@
        --- 6: Walking and Talking with Someone
        --- 7: Talking while Standing
        
-5. Reference Papers
+# My work
 
-   --- Casale, P. Pujol, O. and Radeva, P. 
-       "BeaStreamer-v0.1: a new platform for Multi-Sensors Data Acquisition in Wearable Computing Applications", 
-       CVCRD09, ISBN: 978-84-937261-1-9, 2009
-       available on https://www.researchgate.net/publication/257132489_BeaStreamer-v0.1_a_new_platform_for_Multi-Sensors_Data_Acquisition_in_Wearable_Computing_Applications?ev=prf_pub
+1) combine all the csv into one gaint data frame using pandas.
+2) See shapa and size. check if the datas are balanced perfectly.
+3) if not balance the data.
+4) Standardize features by removing the mean and scaling to unit variance.
+5) Convert the train, test, validation labels into one hot vectors.
+6) Define model and compile model.
+7) Fit the model with the training data and use validation set and early stopping.
+8) Evaluate the model and plot the confusion matrix.
 
-   --- Casale, P. Pujol, O. and Radeva, P. 
-       "Human activity recognition from accelerometer data using a wearable device", 
-       IbPRIA'11, 289-296, Springer-Verlag, 2011
-       available on https://www.researchgate.net/publication/221258784_Human_Activity_Recognition_from_Accelerometer_Data_Using_a_Wearable_Device?ev=prf_pub
-       
-  --- Casale, P. Pujol, O. and Radeva, P. 
-       "Personalization and user verification in wearable systems using biometric walking patterns"
-       Personal and Ubiquitous Computing, 16(5), 563-580, 2012
-       available on https://www.researchgate.net/publication/227192676_Personalization_and_user_verification_in_wearable_systems_using_biometric_walking_patterns?ev=prf_pub
+# Future work
+
+1) Use Lstm network as the data might be dependent on previous data.
+2) Use Neat algorithm.
+3) Use very deep network to get the highest possible accuracy.
+4) Use Colab to train the model in cloud.
+5) 
